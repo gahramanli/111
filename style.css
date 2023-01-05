@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.block{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: #f0F2F5;
+    position: relative;
+}
+.right{
+    width: 50%;
+    justify-content: start;
+    margin-top: -5%;
+    margin-left: 6%;
+    
+}
+.left{
+    width: 50%;
+    margin-right: 3%;
+}
+.block .image{
+    width: 301px;
+    height: 106px;
+    cursor: auto;
+}
+.right p{
+    font-size: 28px;
+    margin-left: 14.5%;
+    margin-top: -2%;
+    font-weight: 300;
+}
+.text{
+    text-align: start;
+    margin-left: 25.5%;
+}
+.card{
+    width: 396px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px rgb(109, 105, 105);
+}
+.left .in1{
+    width: 370px;
+    height: 40px;
+    border: 1px solid #dadcdf;
+    margin-bottom: 10px;
+
+    border-radius: 4px;
+}
+.left .in1::placeholder{
+    font-size: 20px;
+    padding-left: 7px;
+    align-items: center;
+    color: #a7a7a7;
+    font-weight: 300;
+}
+.left .in2{
+    width: 370px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #dadcdf;
+    border-radius: 4px;
+}
+.left .in2::placeholder{
+    font-size: 20px;
+    padding-left: 7px;
+    align-items: center;
+    color: #a7a7a7;
+    font-weight: 300;
+}
+.button1{
+    width: 378px;
+    height: 45px;
+    border: 1px solid #0066ff;
+    background-color:#0066ff ;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.txt{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #0066ff;
+    margin-bottom: 15px;
+
+}
+.txt:hover{
+    border-bottom: 1px solid #0066ff;
+    cursor: pointer;
+}
+    
+.line{
+    width: 370px;
+    height: 1px;
+    background-color: #dfdddd;
+}
+.buttn{
+    width: 180px;
+    height: 40px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #42b72a;
+    border-radius: 4px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.left h5{
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 55%;
+    margin-top: 20px;
+    
+}
+.left h5:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #308b1e;
+}
+.button1:hover{
+    background-color: #004bbb;
+}
+.s2cond{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: 1212;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 192, 192);
+}
+.card2{
+    height: 300px;
+    width: 432px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.head2{
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    border-bottom: 1px solid #dadcdf;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.head2 h10{
+    font-size: 32px;
+    font-weight: bold;
+}
+.head2 p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.in11{
+    width: 45%;
+    margin-right: 10px;
+    height: 40px;
+    background-color: #f0efef;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.in22{
+    width: 45%;
+    height: 40px;
+    background-color: #f0efef;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.line1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+.in11::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.in22::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.line2{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.in33{
+    width: 92%;
+    height: 40px;
+    background-color: #f0efef;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.in33::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.btn33{
+    width: 180px;
+    height: 35px;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.btn33:hover{
+    background-color: #308b1e;
+}
